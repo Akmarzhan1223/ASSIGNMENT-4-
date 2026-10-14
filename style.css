@@ -1,0 +1,102 @@
+body {
+    background-color: aliceblue;
+    padding: 40px;
+    font-family: Arial, sans-serif;
+    align-items: center;
+}
+
+
+
+.simple-form {
+    max-width: 450px;
+    margin-bottom: 30px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    border: 1px solid gray;
+    border-radius: 4px;
+    font-size: 14px;
+    font-family: inherit;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+    outline: none;
+    border-color: royalblue;
+}
+
+.simple-form button {
+    padding: 10px 20px;
+    background-color: royalblue;
+    color: whitesmoke;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+
+.form-box {
+    background-color: white;
+    padding: 30px;
+    border-radius: 8px;
+    margin-bottom: 30px;
+}
+
+.reg-card {
+    background-color: white;
+    border-radius: 12px;
+    padding: 35px;
+    
+}
+
+.reg-card h2 {
+    color: #4a4a4a;
+    margin-bottom: 25px;
+}
+
+.was-validated .form-control:invalid ~ .invalid-feedback,
+.was-validated .form-select:invalid ~ .invalid-feedback {
+    display: block;
+}
+
+.form-control:not(:placeholder-shown):valid ~ .valid-feedback,
+.form-select:valid ~ .valid-feedback {
+    display: block;
+}
+
+.form-control:not(:placeholder-shown):invalid ~ .invalid-feedback,
+.form-select:invalid ~ .invalid-feedback {
+    display: block;
+}
+
+.form-control:not(:placeholder-shown):valid {
+    border-color: #198754;
+}
+
+.form-control:not(:placeholder-shown):invalid {
+    border-color: #dc3545;
+}
+
+.form-select:valid {
+    border-color: #198754;
+}
+
+.form-select:invalid {
+    border-color: #dc3545;
+}
